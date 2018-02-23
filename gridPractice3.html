@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<style>
+
+			body{
+
+				display:grid;
+				height: 1000px;
+				grid-template-rows: auto;
+				grid-template-columns: auto;
+				grid-template-areas: "five two two ten"
+									 "five three six six"
+									 "seven seven six six"
+									 "eight four six six"
+									 "nine four one eleven"
+									 "nine twelve twelve twelve";
+			}
+
+			.one{
+
+				background-color:blue;
+				grid-area: one;
+			}
+
+			.two{
+
+				background-color: purple;
+				grid-area: two;
+			}
+
+			.three{
+
+				background-color: teal;
+				grid-area: three;
+			}
+
+			.four{
+
+				background-color: yellow;
+				grid-area: four;
+			}
+
+			.five{
+
+				background-color:orange;
+				grid-area: five;
+			}
+
+			.six{
+
+				background-color: red;
+				grid-area: six;
+			}
+
+			.seven{
+
+				background-color: navy;
+				grid-area: seven;
+			}
+
+			.eight{
+
+				background-color:blue;
+				grid-area: eight;
+			}
+
+			.nine{
+
+				background-color: purple;
+				grid-area: nine;
+			}
+
+			.ten{
+
+				background-color: teal;
+				grid-area: ten;
+			}
+
+			.eleven{
+
+				background-color: yellow;
+				grid-area: eleven;
+			}
+
+			.twelve{
+
+				background-color: orange;
+				grid-area: twelve;
+			}
+
+
+		</style>
+
+	</head>
+	
+	<body>
+
+		<div class="one">Box One</div>
+		<div class="two">Box Two</div>
+		<div class="three">Box Three</div>
+		<div class="four">Box Four</div>
+		<div class="five">Box Five</div>
+		<div class="six">Box Six</div>
+		<div class="seven">Box Seven</div>
+		<div class="eight">Box Eight</div>
+		<div class="nine">Box Nine</div>
+		<div class="ten">Box Ten</div>
+		<div class="eleven">Box Eleven</div>
+		<div class="twelve">Box Twelve</div>
+
+	</body>	
+
+</html>

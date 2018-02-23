@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<style>
+
+			body{
+
+				display:grid;
+				height:1000px;
+				grid-template-rows: auto;
+				grid-template-columns: auto;
+				grid-template-areas: "header header header header"
+									 "main main empty sidebar"
+									 "footer footer footer footer";
+			}
+
+			.header{
+
+				grid-area: header;
+				background-color:blue;
+			}
+
+			.main{
+
+				grid-area: main;
+				background-color:yellow;
+			}
+
+			.empty{
+
+				grid-area:empty;
+				background-color:grey;
+			}
+
+			.sidebar{
+
+				grid-area: sidebar;
+				background-color:red;
+			}
+
+			.footer{
+
+				grid-area: footer;
+				background-color:green;
+			}
+
+
+		</style>
+
+
+	</head>
+	
+	<body>
+
+		<div class="header"> Header </div>
+
+		<div class="main">Main </div>
+
+		<div class="empty">Empty</div>
+
+		<div class="sidebar">SideBar</div>
+
+		<div class="footer">Footer</div>
+
+	</body>	
+
+</html>
